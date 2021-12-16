@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: service-flightvehicle
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://metaspeed.space/
+  instance:
+    hostname: metaspeed
+    instance-id: https://metaspeed.space/
+server:
+  port: 8091
